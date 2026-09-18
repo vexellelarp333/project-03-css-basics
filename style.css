@@ -2,5 +2,21 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f5f5f5;
+    background: #ff00dd;
+}
+* {
+box-sizing: border-box;
+}
+.profile-card {
+max-width: 520px;
+margin: 40px auto;
+padding: 24px;
+border: 1px solid #85ff1a;
+border-radius: 18px;
+}
+.profile-card__link:hover {
+text-decoration: none;
+}
+.profile-card__link:active {
+transform: translateY(1px);
 }
